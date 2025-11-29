@@ -3,12 +3,12 @@ id 'com.android.application'
 }
 
 android {
-compileSdk 33
+compileSdk 28
 
 defaultConfig {
 applicationId "com.termux.tools"
 minSdk 21
-targetSdk 33
+targetSdk 28
 versionCode 1
 versionName "1.0"
 }
