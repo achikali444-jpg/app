@@ -1,0 +1,43 @@
+plugins {
+id 'com.android.application'
+}
+
+android {
+compileSdk 36
+
+defaultConfig {
+applicationId "com.termux.tools"
+minSdk 25
+targetSdk 36
+versionCode 1
+versionName "1.0"
+}
+
+// ADD THIS SIGNING CONFIG SECTION
+signingConfigs {
+release {
+storeFile file("keystore/my-release-key.jks")
+storePassword "Sana@123"
+keyAlias "my-alias"
+keyPassword "Sana@123"
+}
+}
+
+buildTypes {
+release {
+// ADD THIS LINE to apply the signing config
+signingConfig signingConfigs.release
+minifyEnabled false
+proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+}
+}
+compileOptions {
+sourceCompatibility JavaVersion.VERSION_1_8
+targetCompatibility JavaVersion.VERSION_1_8
+}
+}
+
+dependencies {
+// NOTE: CodeAssist does NOT support adding dependencies here,
+// use the library manager instead
+}

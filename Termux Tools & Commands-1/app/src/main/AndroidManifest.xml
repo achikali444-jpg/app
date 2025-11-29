@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.termux.tools">
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<application
+android:allowBackup="true"
+android:icon="@mipmap/ic_launcher"
+android:label="@string/app_name"
+android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+<!-- Add AdMob App ID here -->
+<meta-data
+android:name="com.google.android.gms.ads.APPLICATION_ID"
+android:value="ca-app-pub-5654505690672290~2457419201"/>
+
+<!-- Firebase Analytics -->
+<meta-data
+android:name="firebase_analytics_collection_enabled"
+android:value="true" />
+
+<!-- Main Activity -->
+<activity
+android:name=".MainActivity"
+android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+</activity>
+
+<!-- About Us Activity -->
+<activity
+android:name=".AboutUsActivity"
+android:exported="false"
+android:parentActivityName=".MainActivity" />
+
+</application>
+
+</manifest>

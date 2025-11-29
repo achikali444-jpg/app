@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Hammer/Wrench Icon Selected -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M5.64,4.22l1.44,1.44 -1.42,1.42 -1.44,-1.44L5.64,4.22zM1,10.5l3.54,3.54 1.41,-1.41L2.41,9.09 1,10.5zM14.64,4.22l4.95,4.95 -1.41,1.41 -4.95,-4.95L14.64,4.22zM10,0.5l2.12,2.12 -2.12,2.12L7.88,2.62 10,0.5zM1,18.5l3.54,3.54 1.41,-1.41L2.41,17.09 1,18.5zM20.04,8.71l-4.95,-4.95 -1.41,1.41 4.95,4.95L20.04,8.71zM18.36,4.22l1.42,1.42 -1.44,1.44 -1.42,-1.42L18.36,4.22zM22,10.5l-3.54,3.54 -1.41,-1.41 3.54,-3.54L22,10.5zM10,16.5l-2.12,-2.12 2.12,-2.12 2.12,2.12L10,16.5zM22,18.5l-3.54,3.54 -1.41,-1.41 3.54,-3.54L22,18.5z"/>
+</vector>

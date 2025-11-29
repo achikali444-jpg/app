@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900741778920",
+    "project_id": "termux-33db3",
+    "storage_bucket": "termux-33db3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900741778920:android:9a6d644c6cc71404f7685d",
+        "android_client_info": {
+          "package_name": "com.termux.tools"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA46HJsJm4uYAD2Cb_tdkqgJZ-tIT7W1JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

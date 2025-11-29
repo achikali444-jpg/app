@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+	
+    <!-- Light Mode Colors -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#4CAF50</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="card_dark">#2D2D2D</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#333333</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#666666</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+    
+    <!-- Bottom Navigation -->
+    <color name="bottom_nav_light">#2C2C2C</color>
+    <color name="bottom_nav_dark">#1A1A1A</color>
+</resources>
